@@ -1,0 +1,16 @@
+1. Project Description
+       The project includes two wearable items; a Blind man,s Goggles and a communication band for deaf people to communicate. The Blind man's goggles has the following   features :
+   -Proximity sensing on four directions with response given by vatying pressure on skin by micro solenoid actuator.
+   -LDR sensor for sensing variotions in light.
+   -Tracking device to ensure safety of the wearer.
+  All of these are integrated to a single arduino.
+       The next part is the communication band. It is a bluetooth device (a modified bluetooth headphone with vibrators instead of speakers) which is connected to the   android app(Project_Aid) on mobile phone. This applications detects speech, recognises it and converts it into text. The text is again converted into morse code which is   sent to the band(bluetooth device) as audio signals. The audio signals recieved by the band is converted into vibrations by the vibrator motor. thus the deaf person can   understand normal speech without any sign language just by feeling the vibrations.
+
+2. Contents of project Directory
+    -Android Application
+            Contains all the files related to the Android application(Project_Aid)
+    -Arduino Programs
+      -Project_Main
+          Contains Arduino Program for the prototype
+      -Project_Main
+          Contains Arduino Program for the complete final product
